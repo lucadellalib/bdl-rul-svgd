@@ -1,6 +1,8 @@
 # Bayesian Deep Learning for Remaining Useful Life Estimation via Stein Variational Gradient Descent
 
-The goal of this project is to explore the use of [Stein variational gradient descent (SVGD)](https://arxiv.org/abs/1608.04471)
+This is the official code accompanying the paper [Bayesian Deep Learning for Remaining Useful Life Estimation via Stein Variational Gradient Descent](https://arxiv.org/abs/2402.01098).
+
+In this work, we explore the use of [Stein variational gradient descent (SVGD)](https://arxiv.org/abs/1608.04471)
 for training Bayesian deep learning models for remaining useful life (RUL) estimation. In particular, we investigate whether
 Bayesian deep learning models trained via SVGD can outperform in terms of convergence speed and predictive performance both
 the same models trained via [Bayes by Backprop (BBB)](https://arxiv.org/abs/1505.05424), which is the de-facto standard for
@@ -65,6 +67,20 @@ To reproduce the experimental results, open a terminal and run:
 ```
 conda activate bdl-rul-svgd
 python run_experiments.py
+```
+
+---------------------------------------------------------------------------------------------------------
+
+## @ Citing
+
+```bibtex
+@article{dellalibera2024bayesian,
+  author = {Luca Della Libera and Jacopo Andreoli and Davide Dalle Pezze and Mirco Ravanelli and Gian Antonio Susto},
+  title = {Bayesian Deep Learning for Remaining Useful Life Estimation via {S}tein Variational Gradient Descent},
+  journal = {arXiv preprint arXiv:2402.01098},
+  year = {2024},
+  url = {https://arxiv.org/abs/2402.01098},
+}
 ```
 
 ---------------------------------------------------------------------------------------------------------
